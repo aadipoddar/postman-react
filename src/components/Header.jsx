@@ -1,4 +1,6 @@
+
 import { makeStyles } from "@mui/styles";
+import { AppBar, Toolbar } from "@mui/material";
 
 const useStyles = makeStyles({
     logo: {
@@ -18,7 +20,11 @@ const Header = () => {
 
     return (
         <>
-            <img src={logo} alt="logo" className={classes.logo} />
+            <img src={logo} alt="logo" className={classes.logo} />    
+            {/* <AppBar className={classes.navbar}>
+                <Toolbar>
+                </Toolbar>
+            </AppBar> */}
         </>
     )
 }
