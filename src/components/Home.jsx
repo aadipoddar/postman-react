@@ -4,6 +4,7 @@ import { makeStyles } from '@mui/styles'
 // components
 import Form from "./Form"
 import Header from "./Header"
+import SelectTab from './SelectTab'
 
 const useStyles = makeStyles({
     component: {
@@ -21,6 +22,7 @@ const Home = () => {
 
             <Box className={classes.component}>
                 <Form />
+                <SelectTab />
             </Box>
         </>
     )
